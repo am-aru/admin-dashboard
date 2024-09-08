@@ -44,7 +44,7 @@ const { activeMenu } = useStateContext();
             <Routes>
                 { /* dashboard */ }
                 <Route path="/" element={<Ecommerce/>} />
-                <Route path="/ecommerce" element={<Ecommerce />}/>
+                <Route path="/Ecommerce" element={<Ecommerce />}/>
                 {/* pages */}
                 <Route path="/orders" element={<Orders />}/>
                 <Route path="/employees" element={<Employees/>} />
